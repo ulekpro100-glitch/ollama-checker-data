@@ -1,0 +1,35 @@
+﻿name: Update Ollama models
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch models
+        run: |
+          python3 - <<'PY'
+          import json, urllib.request
+          url="https://ollama.com/api/tags"
+          with urllib.request.urlopen(url) as r:
+              data=json.load(r)
+          models=[]
+          for m in data.get("models",[]):
+              size=m.get("size") or 0
+              vram=round(size/1e9*1.05,2)
+              if vram>0.5:
+                  models.append({"n":m["name"],"minVram":vram,"speed":3})
+          with open("models.json","w") as f:
+              json.dump(models,f,indent=2)
+          PY
+      - name: Commit
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add models.json
+          git diff --cached --quiet || git commit -m "update models"
+          git push

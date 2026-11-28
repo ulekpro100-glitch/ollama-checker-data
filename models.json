@@ -1,32 +1,17 @@
 [
   {
-    "n": "kimi-k3.1-pro",
-    "minVram": 1639.36,
-    "speed": 3
-  },
-  {
     "n": "glm-5.3-flash",
     "minVram": 344.66,
     "speed": 3
   },
   {
-    "n": "deepseek-v4.1-flash:1017",
-    "minVram": 511.06,
+    "n": "kimi-k2.7-code",
+    "minVram": 624.91,
     "speed": 3
   },
   {
-    "n": "glm-5.3",
-    "minVram": 793.21,
-    "speed": 3
-  },
-  {
-    "n": "inkling-2-small",
-    "minVram": 402.23,
-    "speed": 3
-  },
-  {
-    "n": "clef:27b",
-    "minVram": 57.72,
+    "n": "gemma4:31b",
+    "minVram": 65.67,
     "speed": 3
   },
   {
@@ -40,6 +25,11 @@
     "speed": 3
   },
   {
+    "n": "deepseek-v4.1-flash",
+    "minVram": 511.06,
+    "speed": 3
+  },
+  {
     "n": "mimo-v2.6-flash",
     "minVram": 176.68,
     "speed": 3
@@ -50,8 +40,18 @@
     "speed": 3
   },
   {
-    "n": "gemma4:31b",
-    "minVram": 65.67,
+    "n": "gpt-oss:120b",
+    "minVram": 68.55,
+    "speed": 3
+  },
+  {
+    "n": "kimi-k3.1-pro",
+    "minVram": 1639.36,
+    "speed": 3
+  },
+  {
+    "n": "clef:27b",
+    "minVram": 57.72,
     "speed": 3
   },
   {
@@ -60,33 +60,33 @@
     "speed": 3
   },
   {
-    "n": "deepseek-v4-pro:0813",
-    "minVram": 937.38,
-    "speed": 3
-  },
-  {
-    "n": "kimi-k2.7-code",
-    "minVram": 624.91,
-    "speed": 3
-  },
-  {
-    "n": "hy4",
-    "minVram": 1626.38,
-    "speed": 3
-  },
-  {
-    "n": "deepseek-v4.1-flash",
+    "n": "deepseek-v4.1-flash:1017",
     "minVram": 511.06,
-    "speed": 3
-  },
-  {
-    "n": "gpt-oss:120b",
-    "minVram": 68.55,
     "speed": 3
   },
   {
     "n": "mimo-v2.6-pro",
     "minVram": 569.29,
+    "speed": 3
+  },
+  {
+    "n": "glm-5.3",
+    "minVram": 793.21,
+    "speed": 3
+  },
+  {
+    "n": "deepseek-v4-pro:0813",
+    "minVram": 937.38,
+    "speed": 3
+  },
+  {
+    "n": "inkling-2-small",
+    "minVram": 402.23,
+    "speed": 3
+  },
+  {
+    "n": "hy4",
+    "minVram": 1626.38,
     "speed": 3
   },
   {
@@ -105,23 +105,23 @@
     "speed": 3
   },
   {
-    "n": "hf.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
-    "minVram": 28.69,
-    "speed": 3
-  },
-  {
-    "n": "hf.co/Serveurperso/YuE2-GGUF",
-    "minVram": 0.66,
-    "speed": 3
-  },
-  {
     "n": "hf.co/unsloth/Qwen3.8-Flash-Next-GGUF",
     "minVram": 185.79,
     "speed": 3
   },
   {
+    "n": "hf.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+    "minVram": 28.69,
+    "speed": 3
+  },
+  {
     "n": "hf.co/unsloth/gemma-4-26B-A4B-it-GGUF",
     "minVram": 26.49,
+    "speed": 3
+  },
+  {
+    "n": "hf.co/Serveurperso/YuE2-GGUF",
+    "minVram": 0.66,
     "speed": 3
   },
   {
@@ -131,11 +131,6 @@
   },
   {
     "n": "hf.co/ornith-ai/Ornith-1.5-35B-A3B-GGUF",
-    "minVram": 37.28,
-    "speed": 3
-  },
-  {
-    "n": "hf.co/huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF",
     "minVram": 37.28,
     "speed": 3
   },
@@ -150,8 +145,13 @@
     "speed": 3
   },
   {
-    "n": "hf.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-    "minVram": 206.44,
+    "n": "hf.co/unsloth/Inkling-2-Mini-GGUF",
+    "minVram": 27.37,
+    "speed": 3
+  },
+  {
+    "n": "hf.co/huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF",
+    "minVram": 37.28,
     "speed": 3
   },
   {
@@ -160,8 +160,8 @@
     "speed": 3
   },
   {
-    "n": "hf.co/unsloth/Inkling-2-Mini-GGUF",
-    "minVram": 27.37,
+    "n": "hf.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+    "minVram": 206.44,
     "speed": 3
   },
   {
@@ -170,8 +170,8 @@
     "speed": 3
   },
   {
-    "n": "hf.co/farbodtavakkoli/OTel-2.0-Decision-26B-A4B-4bit",
-    "minVram": 26.49,
+    "n": "hf.co/agentionai/Qwen3.8-Flash-Next-Gyro-GGUF",
+    "minVram": 132.03,
     "speed": 3
   },
   {
@@ -180,8 +180,8 @@
     "speed": 3
   },
   {
-    "n": "hf.co/agentionai/Qwen3.8-Flash-Next-Gyro-GGUF",
-    "minVram": 132.03,
+    "n": "hf.co/farbodtavakkoli/OTel-2.0-Decision-26B-A4B-4bit",
+    "minVram": 26.49,
     "speed": 3
   },
   {
@@ -205,28 +205,23 @@
     "speed": 3
   },
   {
-    "n": "hf.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
-    "minVram": 9.4,
-    "speed": 3
-  },
-  {
     "n": "hf.co/unsloth/Qwen-Image-2.1-Turbo-GGUF",
     "minVram": 7.47,
     "speed": 3
   },
   {
-    "n": "hf.co/Serveurperso/ACE-Step-1.5-GGUF",
-    "minVram": 0.7,
-    "speed": 3
-  },
-  {
-    "n": "hf.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
-    "minVram": 28.69,
+    "n": "hf.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
+    "minVram": 9.4,
     "speed": 3
   },
   {
     "n": "hf.co/prism-ml/Ternary-Bonsai-2-9B-gguf",
     "minVram": 1.54,
+    "speed": 3
+  },
+  {
+    "n": "hf.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
+    "minVram": 28.69,
     "speed": 3
   },
   {
@@ -237,6 +232,11 @@
   {
     "n": "hf.co/peasantsmith/GLM-5.3-Flash-Maya-GGUF",
     "minVram": 1.23,
+    "speed": 3
+  },
+  {
+    "n": "hf.co/Serveurperso/ACE-Step-1.5-GGUF",
+    "minVram": 0.7,
     "speed": 3
   },
   {
@@ -255,23 +255,28 @@
     "speed": 3
   },
   {
-    "n": "hf.co/DeepBeepMeep/MiniMax-H3",
-    "minVram": 27.04,
-    "speed": 3
-  },
-  {
     "n": "hf.co/ukisai/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
     "minVram": 185.79,
     "speed": 3
   },
   {
-    "n": "hf.co/migtissera/Tess-4.5-27B-GGUF",
-    "minVram": 28.24,
+    "n": "hf.co/DeepBeepMeep/MiniMax-H3",
+    "minVram": 27.04,
+    "speed": 3
+  },
+  {
+    "n": "hf.co/turintech/gemma-4-E2B-it-Artemis-GGUF",
+    "minVram": 4.86,
     "speed": 3
   },
   {
     "n": "hf.co/mradermacher/Ornith-1.5-9B-uncensored-GGUF",
     "minVram": 9.4,
+    "speed": 3
+  },
+  {
+    "n": "hf.co/migtissera/Tess-4.5-27B-GGUF",
+    "minVram": 28.24,
     "speed": 3
   },
   {
@@ -282,11 +287,6 @@
   {
     "n": "hf.co/Serveurperso/Qwen3-TTS-GGUF",
     "minVram": 0.96,
-    "speed": 3
-  },
-  {
-    "n": "hf.co/turintech/gemma-4-E2B-it-Artemis-GGUF",
-    "minVram": 4.86,
     "speed": 3
   },
   {
@@ -305,13 +305,13 @@
     "speed": 3
   },
   {
-    "n": "hf.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-    "minVram": 36.39,
+    "n": "hf.co/peculiar-ragdoll/Dirk-Qwen3.8-27B-GGUF",
+    "minVram": 28.24,
     "speed": 3
   },
   {
-    "n": "hf.co/peculiar-ragdoll/Dirk-Qwen3.8-27B-GGUF",
-    "minVram": 28.24,
+    "n": "hf.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+    "minVram": 36.39,
     "speed": 3
   },
   {
@@ -325,8 +325,8 @@
     "speed": 3
   },
   {
-    "n": "hf.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
-    "minVram": 28.24,
+    "n": "hf.co/turintech/gemma-4-E4B-it-Artemis-GGUF",
+    "minVram": 7.84,
     "speed": 3
   },
   {
@@ -335,18 +335,18 @@
     "speed": 3
   },
   {
+    "n": "hf.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+    "minVram": 28.24,
+    "speed": 3
+  },
+  {
     "n": "hf.co/DeepBeepMeep/Wan2.1",
     "minVram": 5.08,
     "speed": 3
   },
   {
-    "n": "hf.co/turintech/gemma-4-E4B-it-Artemis-GGUF",
-    "minVram": 7.84,
-    "speed": 3
-  },
-  {
-    "n": "hf.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
-    "minVram": 28.24,
+    "n": "hf.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+    "minVram": 27.37,
     "speed": 3
   },
   {
@@ -360,7 +360,7 @@
     "speed": 3
   },
   {
-    "n": "hf.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
+    "n": "hf.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
     "minVram": 28.24,
     "speed": 3
   }
